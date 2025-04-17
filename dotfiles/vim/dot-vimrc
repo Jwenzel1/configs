@@ -1,0 +1,10 @@
+noremap <up> <nop>
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
+
+set expandtab
+set autoindent
+set smartindent
+set number relativenumber
+set ruler
