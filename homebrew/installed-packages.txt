@@ -1,0 +1,8 @@
+gh
+git
+pipenv
+pyenv
+stow
+tmux
+tree
+xz
