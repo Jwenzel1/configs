@@ -1,3 +1,3 @@
 #!/bin/sh
-ls -d */ | xargs stow --adopt --dotfiles --no-folding --verbose=1 --target=$HOME
+ls -d */ | awk -F / '{print $1}' | xargs stow --adopt --dotfiles --no-folding --verbose=1 --target=$HOME
 
