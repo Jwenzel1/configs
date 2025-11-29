@@ -74,4 +74,4 @@ compinit
 # Aliases
 alias la="ls -a"
 alias ll="ls -ahl"
-alias brew-update="brew update && brew upgrade && brew autoremove && brew cleanup"
+alias bup="brew update && brew upgrade && brew autoremove && brew cleanup"
